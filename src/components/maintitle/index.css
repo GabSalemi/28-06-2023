@@ -1,0 +1,32 @@
+.title__div {
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    
+}
+
+.title__div h1 {
+    font-size: 6rem;
+    color: #ff50ff;
+    transform: skew(15deg);
+}
+
+a {
+    color: #ff50ff;
+    text-decoration: none;
+}
+
+a::after {
+    content: "CyberRandom";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 76px;
+}
+
+a:hover::after {
+    color: transparent;
+}
